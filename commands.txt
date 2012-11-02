@@ -34,3 +34,7 @@ git branch testing
 git checkout testing
 git checkout -b iss53
 = git branch iss53 + git checkout iss53
+git checkout -b 'hotfix'
+git commit -a -m 'fixed the broken email address'
+git merge hotfix
+git branch -d hotfix
