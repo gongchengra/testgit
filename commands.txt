@@ -32,3 +32,5 @@ git tag -s v1.5 -m 'my signed 1.5 tag'
 git tag v1.4-lw
 git branch testing
 git checkout testing
+git checkout -b iss53
+= git branch iss53 + git checkout iss53
